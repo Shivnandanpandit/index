@@ -153,6 +153,7 @@
 				height:200px;
 				background:#FFF;
 				float:left;
+				overflow:hidden;
 			}
 			.ebox{
 				width:190px;;
@@ -163,14 +164,41 @@
 				margin-top:40px;
 				padding:0px;
 				border-radius:10px;
+				opacity:0px;
+			}
+			.ebox:hover{
+				border-radius:0;
+				background:#900C3F;
 			}
 			.ebox1{
 				width:190px;
 				height:50px;
-				background:blue;
 				float:left;
 				border-top-left-radius:10px;
 				border-top-right-radius:10px;
+			}
+			.ebox1:hover{
+				border-radius:0;
+				background:#900C3F;
+			}
+			.ebox2{
+				width:190px;
+				height:50px;
+				background:blue;
+				float:left;
+				border-bottom-left-radius:10px;
+				border-bottom-right-radius:10px;
+			}
+			.ebox2:hover{
+				border-radius:0;
+				background:#900C3F;
+			}
+			.ebox2 p{
+				font: bold 18px arial;
+				list-style:none;
+				color:white;
+				text-align:center;
+				margin-bottom:10px;
 			}
 			.ebox12{
 				width:40px;
@@ -188,17 +216,10 @@
 				float:left;
 				margin-top:7px;
 				margin-left:8px;
+				transition:transform 1s;
 			}
 			.ebox12 img:hover{
 				transform:rotate(360deg);
-			}
-			.ebox2{
-				width:190px;
-				height:50px;
-				background:black;
-				float:left;
-				border-bottom-left-radius:10px;
-				border-bottom-right-radius:10px;
 			}
 			.bg1{
 				background:#C95042;
@@ -217,9 +238,144 @@
 			}
 			#farea{
 				width:100%;
-				height:730px;
+				height:600px;
 				background:#EEEEEE;
 				float:left;
+			}
+			#fbox{
+				width:475px;
+				height:525px;
+				float:left;
+				background:blue;
+				margin-left:50px;
+				margin-top:25px;
+				padding:0;
+			}
+			.f1{
+				width:100%;
+				height:75px;
+				float:left;
+				background:#FFF;
+			}
+			.f1 p{
+				font:bold 15px arial;
+				text-align:center;
+			}
+			.f1 h2{
+				color:#58ABA5;
+				font-family:arial;
+				margin-left:10px;
+				
+			}
+			.f2{
+				width:100%;
+				height:320px;
+				float:left;
+				background:#F0F0F0;
+			}
+			#f2box{
+				width:100%;
+				height:50%;
+				float:left;
+				background:#FFF;
+			}
+			#f2box img{
+				width:170px;
+				height:98px;
+				border-radius:5px;
+				margin:40px 0 0 4.5px;
+			}
+			#f2boxs{
+				width:100%;
+				height:50%;
+				float:left;
+				background:#FFF;
+				overflow:hidden;
+			}
+			#f2boxs marquee{
+				font:normal 14px arial;
+				text-align:center;
+			}
+			.f2 img{
+				width:475px;
+				height:320px;
+			}
+			.f3{
+				width:475px;
+				height:70px;
+				float:left;
+				background:#FFF;
+			}
+			.f3 p{
+				font:normal 15px arial;
+			}
+			.f4{
+				width:475px;
+				height:60px;
+				float:left;
+				background:#FFF;
+			}
+			.f4a{
+				width:110px;
+				height:35px;
+				float:left;
+				background:#0C58A2;
+				border-radius:5px;
+				margin:0 0 0 180px;
+			}
+			.f4a h4{
+				margin-top:8px;
+				padding:0;
+				text-align:center;
+				font-family:arial;
+				color:white;
+			}
+			#ffbox{
+				width:475px;
+				height:525px;
+				float:left;
+				background:blue;
+				margin-top:25px;
+				margin-left:10px;
+				padding:0;
+			}
+			#fffbox{
+				width:180px;
+				height:525px;
+				float:left;
+				background:blue;
+				margin-right:50px;
+				margin-top:25px;
+				margin-left:10px;
+				padding:0;
+			}
+			#fff3{
+				width:180px;
+				height:130px;
+				background:pink;
+				float:left;
+			}
+			#fff3a{
+				width:180px;
+				height:80px;
+				background:white;
+				float:left;
+			}
+			#fff3a img{
+				width:70px;
+				height:70px;
+				margin:7px 0 0 53px;
+			}
+			#fff3b{
+				width:180px;
+				height:50px;
+				background:#FFF;
+				float:left;
+			}
+			#fff3b h2{
+				font-family:arial;
+				padding:0;
+				margin:0 0 0 20px;
 			}
 			#garea{
 				width:100%;
@@ -311,6 +467,7 @@
 						</div>
 					</div>
 					<div class="ebox2 bg1">
+						<p>Fee Structure</p>
 					</div>
 				</div>
 				<div class="ebox bg2">
@@ -320,6 +477,7 @@
 						</div>
 					</div>
 					<div class="ebox2 bg2">
+						<p>Admission Procedure for Nursery and XI</p>
 					</div>
 				</div>
 				<div class="ebox bg3">
@@ -329,6 +487,7 @@
 						</div>
 					</div>
 					<div class="ebox2 bg3">
+						<p> Mandatory Public Disclosure</p>
 					</div>
 				</div>
 				<div class="ebox bg4">
@@ -338,6 +497,7 @@
 						</div>
 					</div>
 					<div class="ebox2 bg4">
+						<p> Online Fee Payment 2023-24</p>
 					</div>
 				</div>
 				<div class="ebox bg5">
@@ -347,10 +507,64 @@
 						</div>
 					</div>
 					<div class="ebox2 bg5">
+						<p> Contact Us</p>
 					</div>
 				</div>
 			</div>
 			<div id="farea">
+				<div id="fbox">
+					<div class="f1">
+						<h2>ABOUT SCHOOL</h2>
+					</div>
+					<div class="f2">
+						<img src="school.jpg"/>
+					</div>
+					<div class="f3">
+						<p>DAV Public School, Bistupur, Jamshedpur (DAVPSBJ), is a 10 + 2 private school, affiliated to CBSE. DAVPSBJ took off in the year 1995 with 500 students and 18 teachers.The school is</p>
+					</div>
+					<div class="f4">
+						<div class="f4a">
+							<h4>READ MORE</h4>
+						</div>
+					</div>
+				</div>
+				<div id="ffbox">
+					<div class="f1">
+						<h2>PRINCIPAL'S MESSAGE</h2>
+					</div>
+					<div class="f2">
+						<img src="teach.jpg"/>
+					</div>
+					<div class="f3">
+						<p>Schools today have been entrusted with the responsibilities, a lot more than just educating the child. The challenge is not to reform education in schools but to transform it to enable</p>
+					</div>
+					<div class="f4">
+						<div class="f4a">
+							<h4>READ MORE</h4>
+						</div>
+					</div>
+				</div>
+				<div id="fffbox">
+					<div class="f1">
+						<p>Important Message by DAV Management</p>
+					</div>
+					<div class="f2">
+						<div id="f2box">
+							<img src="pen.jpg"/>
+						</div>
+						<div id="f2boxs">
+							<marquee direction="up" scrollamount="7" onmouseover="this.stop()" onmouseout="this.start()">Governor of Uttarakhand Lieutenant General Gurmeet Singh and Hon'ble Chancellor, Uttarakhand Sanskrit University has conferred Honorary Degree (D.Litt) to Shri Punam Suri, President DAV College Managing Committee. For more details visit davcmc.net.in</marquee>
+						</div>
+					</div>
+					<div id="fff3">
+						<div id="fff3a">
+							<img src="loginLOGO.png"/>
+						</div>
+						<div id="fff3b">
+							<h2>OSM LOGIN</h2>
+						</div>
+					</div>
+				</div>
 			</div>
 			<div id="garea">
 			</div>
