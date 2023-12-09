@@ -91,62 +91,93 @@
 			}
 			#darea{
 				width:100%;
-				height:640px;
-				background:#FFF;
+				height:500px;
 				float:left;
 			}
-			#daarea{
+			#d1{
 				width:750px;
-				height:640px;
-				background:#DE7559;
+				height:500px;
+				background:white;
 				float:left;
-				margin-left:50px;
+				margin-left:50px;	
 			}
-			#daa{
+			#d11{
 				width:750px;
-				height:565px;
+				height:420px;
 				float:left;
 				background:black;
+				border-radius:5px;
 			}
-			#dab{
+			#d11 img{
+				width:100%;
+				height:100%;
+			}
+			#d12{
 				width:750px;
-				height:565px;
+				height:80px;
 				float:left;
-				background:blue;
+				background:#D05252;
 			}
-			#dbarea{
+			#d12 p{
+				font:bold 18px arial;
+				text-align:center;
+				color:white;
+			}
+			#d2{
 				width:400px;
-				height:640px;
-				background:#B6DE59;
-				float:left;
+				height:500px;
+				float:left;	
 			}
-			#dba{
-				width:100%;
-				height:50px;
-				float:left;
-				background:#FF90BE;
-			}
-			#dba1{
-				width:186px;
+			#d21{
+				width:400px;
 				height:45px;
-				background:red;
-				margin-left:34px;
-				float:left;
-				border-right:solid 50px transparent;
-				border-top:solid 45px black;
-				border-left:solid 50px transparent;
-			}
-			#dbb{
-				width:100%;
-				height:420px;
-				background:#59DE5F;
+				background:white;
 				float:left;
 			}
-			#dbc{
-				width:100%;
-				height:170px;
-				background:#6359DE;
+			#d21box{
+				width:250px;
+				height:45px;
+				margin-left:29px;
+				border-left:solid 45px transparent;
+				border-top:solid 45px #0C58A2;
+				border-right:solid 45px transparent;
+				position:realtive;
+			}
+			#d21detail h1{
+				position:relative;
+				color:white;
+				text-align:center;
+				bottom:97px;
+				font:bold 25px arial;				
+			}
+			#d22{
+				width:400px;
+				height:350px;
+				background:white;
 				float:left;
+			}
+			#d22 marquee ul{
+				font:bold 15px arial;
+			}
+			#d23{
+				width:400px;
+				height:105px;
+				background:white;
+				float:left;
+			}
+			#d23box{
+				width:200px;
+				height:35px;
+				background:#0C58A2;
+				margin-top:69px;
+				margin-left:100px;
+				border-radius:5px;
+			}
+			#d23box h2{
+				font:bold 13px arial;
+				color:white;
+				text-align:center;
+				padding:12px;
 			}
 			#earea{
 				width:100%;
@@ -166,7 +197,11 @@
 				border-radius:10px;
 				opacity:0px;
 			}
-			.ebox:hover{
+			.ebox:hover .ebox1{
+				border-radius:0;
+				background:#900C3F;
+			}
+			.ebox:hover .ebox2{
 				border-radius:0;
 				background:#900C3F;
 			}
@@ -178,10 +213,6 @@
 				border-top-right-radius:10px;
 				display:block;
 			}
-			.ebox1:hover{
-				border-radius:0;
-				background:#900C3F;
-			}
 			.ebox2{
 				width:190px;
 				height:50px;
@@ -191,16 +222,12 @@
 				border-bottom-right-radius:10px;
 				display:block;
 			}
-			.ebox2:hover{
-				border-radius:0;
-				background:#900C3F;
-			}
 			.ebox2 p{
 				font: bold 18px arial;
 				list-style:none;
 				color:white;
 				text-align:center;
-				margin-bottom:10px;
+				padding-bottom:10px;
 			}
 			.ebox12{
 				width:40px;
@@ -220,7 +247,7 @@
 				margin-left:8px;
 				transition:transform 1s;
 			}
-			.ebox12 img:hover{
+			.ebox:hover .ebox12 img{
 				transform:rotate(360deg);
 			}
 			.bg1{
@@ -574,7 +601,7 @@
 				background:#004799;
 				position:absolute;
 				float:left;
-				transition:all 0.3s;
+				transition:all 0.3s; 
 				overflow:hidden;
 			}
 			.h1:hover .hbox2{
@@ -653,21 +680,50 @@
 				</ul>
 			</div>
 			<div id="darea">
-				<div id="daarea">
-					<div id="daa">
+				<div id="d1">
+					<div id="d11">
+						<img src="pic1.jpg"/>
 					</div>
-					<div id="dab">
+					<div id="d12">
+						<p>Sawachhata hi sewa</p>
 					</div>
 				</div>
-				<div id="dbarea">
-					<div id="dba">
-						<div id="dba1">
-							<h3>NOTICE BOARD</h3>
+				<div id="d2">
+					<div id="d21">
+						<div id="d21box">
+						</div>
+						<div id="d21detail">
+							<h1>NOTICE BOARD</h1>
 						</div>
 					</div>
-					<div id="dbb">
+					<div id="d22">
+						<marquee direction="up" scrollamount="9" onmouseover="this.stop()" onmouseout="this.start()">
+							<ul>
+								<li><img src="animated-new.gif"/>Entrance Examination for class XI (Session: 2024-25) scheduled on 02/12/23 has been postponed on account of DAV Sports . It will be held on 05/12/23 from 3pm to 5 pm
+
+Reporting time 1 pm onwards.</li>
+								<table bgcolor="red">
+									<tr>
+										<td>28-11-2023</td>
+									</tr>
+								</table>
+								<hr width="100%" size="2px"/>
+
+								<li>Revised Date sheet for Classes VIII, X, XII Preboard Examination.</li>
+								<table bgcolor="red">
+									<tr>
+										<td>28-11-2023</td>
+									</tr>
+								</table>
+								<hr width="100%" size="2px"/> 
+								
+							</ul>
+						</marquee>
 					</div>
-					<div id="dbc">
+					<div id="d23">
+						<div id="d23box">
+							<h2>VIEW ALL</h2>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -689,7 +745,7 @@
 						</div>
 					</div>
 					<div class="ebox2 bg2">
-						<p>Admission Procedure for Nursery and XI</p>
+						<p>Admission Procedure</p>
 					</div>
 				</div>
 				<div class="ebox bg3">
@@ -699,7 +755,7 @@
 						</div>
 					</div>
 					<div class="ebox2 bg3">
-						<p> Mandatory Public Disclosure</p>
+						<p> Mandatory Disclosure</p>
 					</div>
 				</div>
 				<div class="ebox bg4">
@@ -709,7 +765,7 @@
 						</div>
 					</div>
 					<div class="ebox2 bg4">
-						<p> Online Fee Payment 2023-24</p>
+						<p> Online Fee</p>
 					</div>
 				</div>
 				<div class="ebox bg5">
