@@ -4,7 +4,7 @@
 		<style>
 			#mainarea{
 				width:1255px;
-				height:4480px;
+				height:4000px;
 				float:left;
 			}
 			#aarea{
@@ -156,9 +156,21 @@
 				height:350px;
 				background:white;
 				float:left;
+				overflow:hidden;
 			}
 			#d22 marquee ul{
-				font:bold 15px arial;
+				font:15px arial;
+			}
+			.dul li{
+				font:normal 13px arial;
+				list-style:none;
+				background:#85ABD0;
+				padding:6px 20px 4px 6px;
+				width:200px;
+				border-radius:1px;
+			}
+			#d22 marquee hr{
+				margin-left:40px;
 			}
 			#d23{
 				width:400px;
@@ -338,6 +350,7 @@
 			}
 			.f3 p{
 				font:normal 15px arial;
+				padding-left:4px;
 			}
 			.f4{
 				width:475px;
@@ -720,20 +733,26 @@
 	</head>
 	<body>
 		<div id="mainarea">
-			<div id="aarea">
-				<div id="aaarea">
+			<header class="toparea">
+				<div class="container">
+					<div class="row">
+						<div id="aarea">
+							<div id="aaarea">
+							</div>
+							<div id="abarea">
+								<ul>
+									<li>ABOUT DAVCMC</li>
+									<li>ARYA SAMAJ</li>
+									<li>PRESIDENT’s MESSAGE</li>
+									<li>DAVCMC VIDEOS</li>
+									<li>ALUMNI</li>
+									<li>DAVCMC INTELLECTUAL HUB</li>
+								</ul>
+							</div>
+						</div>
+					</div>
 				</div>
-				<div id="abarea">
-					<ul>
-						<li>ABOUT DAVCMC</li>
-						<li>ARYA SAMAJ</li>
-						<li>PRESIDENT’s MESSAGE</li>
-						<li>DAVCMC VIDEOS</li>
-						<li>ALUMNI</li>
-						<li>DAVCMC INTELLECTUAL HUB</li>
-					</ul>
-				</div>
-			</div>
+			</header>
 			<div id="barea">
 				<img src="LOGO.png"/>
 				<ul>
@@ -774,27 +793,42 @@
 						</div>
 					</div>
 					<div id="d22">
-						<marquee direction="up" scrollamount="9" onmouseover="this.stop()" onmouseout="this.start()">
+						<marquee direction="up" scrollamount="20" onmouseover="this.stop()" onmouseout="this.start()">
 							<ul>
-								<li><img src="animated-new.gif"/>Entrance Examination for class XI (Session: 2024-25) scheduled on 02/12/23 has been postponed on account of DAV Sports . It will be held on 05/12/23 from 3pm to 5 pm
-
-Reporting time 1 pm onwards.</li>
-								<table bgcolor="red">
-									<tr>
-										<td>28-11-2023</td>
-									</tr>
-								</table>
-								<hr width="100%" size="2px"/>
-
-								<li>Revised Date sheet for Classes VIII, X, XII Preboard Examination.</li>
-								<table bgcolor="red">
-									<tr>
-										<td>28-11-2023</td>
-									</tr>
-								</table>
-								<hr width="100%" size="2px"/> 
-								
+								<li><img src="animated-new.gif"/><b>Entrance Examination for class XI (Session: 2024-25) scheduled on 02/12/23 has been postponed on account of DAV Sports . It will be held on 05/12/23 from 3pm to 5 pm Reporting time 1 pm onwards.</b></li>	
 							</ul>
+							<ul class="dul">
+								<li>23-11-2023</li>
+							</ul>
+							<hr width="350px" size="1px" align="left"/>
+							<ul>
+								<li>Revised Date sheet for Classes VIII, X, XII Preboard Examination.</li>	
+							</ul>
+							<ul class="dul">
+								<li>23-11-2023</li>
+							</ul>
+							<hr width="350px" size="1px" align="left"/>
+							<ul>
+								<li><b>STD XI REGISTRATION FORM 2024 - 25. CLICK HERE..!!</b> Kindly ensure from your bank that your DEBIT/CREDIT card is active for online payment before paying registration fee for std. XI admission .</li>	
+							</ul>
+							<ul class="dul">
+								<li>23-11-2023</li>
+							</ul>
+							<hr width="350px" size="1px" align="left"/>
+							<ul>
+								<li><b>Class XI Registration Form (2024-25) will be available on our school website davbistupur.org from 15th October 2023 to 15th November 2023.</b></li>	
+							</ul>
+							<ul class="dul">
+								<li>23-11-2023</li>
+							</ul>
+							<hr width="350px" size="1px" align="left"/>
+							<ul>
+								<li>Students opted Humanities for admission into std.XI may be considered for Applied Mathematics if fulfills admission criteria.</li>	
+							</ul>
+							<ul class="dul">
+								<li>23-11-2023</li>
+							</ul>
+							<hr width="350px" size="1px" align="left"/>
 						</marquee>
 					</div>
 					<div id="d23">
@@ -953,7 +987,7 @@ Reporting time 1 pm onwards.</li>
 							<div class="hbox1">
 							</div>
 							<div class="hdetail">
-								D.A.V. School Sports
+								D.A.V. Public School Sports
 							</div>
 						</div>
 					</div>
@@ -962,7 +996,7 @@ Reporting time 1 pm onwards.</li>
 							<div class="hbox2">
 							</div>
 							<div class="hdetail">
-								D.A.V. School Photo Gallery
+								D.A.V. Public School Photo Gallery
 							</div>
 						</div>
 						<div class="himage">
@@ -981,7 +1015,7 @@ Reporting time 1 pm onwards.</li>
 							<div class="hbox1">
 							</div>
 							<div class="hdetail">
-								D.A.V. School News
+								D.A.V. Public School News
 							</div>
 						</div>
 					</div>
@@ -990,7 +1024,7 @@ Reporting time 1 pm onwards.</li>
 							<div class="hbox2">
 							</div>
 							<div class="hdetail">
-								D.A.V. School Videos
+								D.A.V. Public School Videos
 							</div>
 						</div>
 						<div class="himage">
